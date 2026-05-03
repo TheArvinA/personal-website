@@ -1,0 +1,14 @@
+PERSONAL WEBSITE — TODO
+========================
+
+Open tasks:
+- [ ] Add remaining projects (beyond Volleyball Tracker + Smart Parking)
+- [ ] Finalize color scheme
+- [ ] Edit marquee text / keywords (skills list)
+- [ ] Rewrite some sections (e.g. intro / hero copy)
+- [ ] Add images to project cards
+- [ ] Update tech stack for each project
+
+Ideas / parking lot:
+-
+
