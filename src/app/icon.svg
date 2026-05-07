@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#353839"/>
+  <text
+    x="32"
+    y="46"
+    text-anchor="middle"
+    font-family="'Instrument Serif', Georgia, 'Times New Roman', serif"
+    font-style="italic"
+    font-size="44"
+    fill="#f5f5f5"
+  >aa<tspan fill="#40e0d0">.</tspan></text>
+</svg>

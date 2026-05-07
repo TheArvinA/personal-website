@@ -4,6 +4,7 @@ const SKILLS = [
   "Python",
   "TypeScript",
   "React",
+  "java",
   "Next.js",
   "FastAPI",
   "Node.js",
@@ -12,10 +13,10 @@ const SKILLS = [
   "OpenCV",
   "PostgreSQL",
   "Docker",
-  "AWS",
+  //"AWS",
   "System Design",
   "Computer Vision",
-  "Microservices",
+  //"Microservices",
 ];
 
 export function About() {

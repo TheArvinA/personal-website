@@ -17,7 +17,7 @@ interface Project {
 const PROJECTS: Project[] = [
   {
     index: "01",
-    year: "2025",
+    year: "2026",
     pre: "Volleyball",
     accent: "Tracker",
     tagline: "Real-time computer vision for sports analytics",
@@ -29,23 +29,39 @@ const PROJECTS: Project[] = [
       { value: "Full-Stack", label: "End-to-End System" },
     ],
     stack: ["YOLOv8", "ByteTrack", "FastAPI", "React", "OpenCV", "PyTorch"],
-    status: "Case Study",
+    status: "In Development",
   },
   {
     index: "02",
-    year: "2024",
+    year: "2026",
     accent: "Smart",
     post: "Parking",
-    tagline: "Microservices system with dynamic pricing",
+    tagline: "Distributed FastAPI services with real-time occupancy",
     description:
-      "Engineered a microservices-based smart parking platform with real-time occupancy tracking, dynamic price modulation based on demand, and scalable backend APIs designed for high-throughput requests.",
+      "Engineered a distributed smart-parking platform as three FastAPI microservices with a React frontend, IoT-driven occupancy simulation, and a PostgreSQL-backed reservation system using license-plate + one-time-password authentication.",
     metrics: [
-      { value: "Microservices", label: "Architecture" },
-      { value: "Dynamic", label: "Pricing Engine" },
-      { value: "Scalable", label: "Backend APIs" },
+      { value: "3", label: "FastAPI Services" },
+      { value: "Real-time", label: "IoT Simulation" },
+      { value: "PostgreSQL", label: "Persistent Layer" },
     ],
-    stack: ["Node.js", "Express", "PostgreSQL", "Docker", "REST", "System Design"],
+    stack: ["Python", "FastAPI", "React", "PostgreSQL", "Uvicorn", "Microservices"],
     status: "Case Study",
+  },
+  {
+    index: "03",
+    year: "2025",
+    pre: "Facial",
+    accent: "Merging",
+    tagline: "Face-landmark pipeline with an interactive web UI",
+    description:
+      "Built a facial-merging pipeline on the LFW dataset using dlib landmarks, OpenCV warping, and TensorFlow, exposed through both a Jupyter workflow for experimentation and a Gradio web UI for interactive merging in the browser.",
+    metrics: [
+      { value: "dlib", label: "Face Landmarks" },
+      { value: "Gradio", label: "Web UI" },
+      { value: "LFW", label: "Dataset" },
+    ],
+    stack: ["Python", "dlib", "OpenCV", "TensorFlow", "Gradio", "Jupyter"],
+    status: "Live",
   },
 ];
 
