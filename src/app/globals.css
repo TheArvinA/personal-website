@@ -33,13 +33,16 @@
 }
 
 @layer base {
-  html,
-  body {
+  html {
     background: var(--color-onyx);
     color: var(--color-smoke);
   }
 
+  /* Body stays transparent so the fixed 3D head layer (-z-10) shows through.
+     The onyx base is painted by <html> (the root), which sits behind it. */
   body {
+    background: transparent;
+    color: var(--color-smoke);
     font-family: var(--font-sans);
     font-feature-settings: "ss01", "cv11";
     overflow-x: hidden;
