@@ -177,4 +177,27 @@ export function ParticleHead() {
     // sends the nose to the viewer's left.
     const targetYaw = ROT_OFFSET_Y - progress * TWO_PI;
     // Bump that rises at the back of the turn: forward pitch + downward drop.
-    const bump = M
+    const bump = Math.sin(Math.PI * progress);
+    const targetPitch = ROT_OFFSET_X + bump * RISE_PITCH;
+    const targetY = -bump * RISE_DROP;
+
+    const k = Math.min(1, dt * 8);
+    pts.rotation.y += (targetYaw - pts.rotation.y) * k;
+    pts.rotation.x += (targetPitch - pts.rotation.x) * k;
+    pts.position.y += (targetY - pts.position.y) * k;
+  });
+
+  if (!geometry) return null;
+
+  return (
+    <points
+      ref={pointsRef}
+      geometry={geometry}
+      material={material}
+      frustumCulled={false}
+      rotation={[ROT_OFFSET_X, ROT_OFFSET_Y, 0]}
+    />
+  );
+}
+
+useGLTF.preload(MODEL_URL);
