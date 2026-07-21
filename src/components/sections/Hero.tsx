@@ -40,7 +40,7 @@ export function Hero() {
         >
           <p className="text-lg md:text-xl text-smoke-dim leading-relaxed">
             Building <span className="font-serif italic text-turquoise">AI-driven</span>{" "}
-            systems, computer vision pipelines, and full-stack applications —
+            systems, computer vision pipelines, and full-stack applications,
             from data ingestion to real-time interfaces.
           </p>
         </div>

@@ -57,7 +57,7 @@ export function Contact() {
                 href={link.href}
                 target={link.href.startsWith("http") ? "_blank" : undefined}
                 rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                className="group relative block bg-onyx px-6 md:px-8 py-10 md:py-12 transition-colors hover:bg-card h-full"
+                className="group relative block bg-onyx/40 backdrop-blur-md px-6 md:px-8 py-10 md:py-12 transition-colors hover:bg-card/60 h-full"
               >
                 <div className="flex items-start justify-between mb-6">
                   <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-mute">

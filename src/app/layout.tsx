@@ -22,7 +22,7 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Arvin Aryanpour — Software Engineer",
+  title: "Arvin Aryanpour: Software Engineer",
   description:
     "Software engineer specializing in AI-driven systems, computer vision, and full-stack development.",
 };

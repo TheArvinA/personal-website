@@ -52,7 +52,7 @@ export function About() {
                 <span className="font-serif italic text-turquoise">
                   AI-driven systems
                 </span>
-                , computer vision, and full-stack development — with hands-on
+                , computer vision, and full-stack development, with hands-on
                 experience building scalable pipelines from data processing to
                 real-time applications.
               </p>
@@ -63,7 +63,7 @@ export function About() {
                 Strong foundation in machine learning, backend architecture, and
                 system design. I translate complex technical concepts into
                 efficient, user-focused solutions across hardware, backend, and
-                frontend — with a focus on{" "}
+                frontend, with a focus on{" "}
                 <span className="text-smoke">performance</span>,{" "}
                 <span className="text-smoke">scalability</span>, and{" "}
                 <span className="text-smoke">practical impact</span>.
