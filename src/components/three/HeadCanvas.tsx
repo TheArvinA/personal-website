@@ -2,6 +2,7 @@
 
 import { Canvas } from "@react-three/fiber";
 import { ParticleHead } from "./ParticleHead";
+import { RotateHint } from "./RotateHint";
 
 /**
  * The WebGL canvas. Kept intentionally thin so it can be dynamically
@@ -17,6 +18,7 @@ export default function HeadCanvas() {
       style={{ width: "100%", height: "100%" }}
     >
       <ParticleHead />
+      <RotateHint />
     </Canvas>
   );
 }
